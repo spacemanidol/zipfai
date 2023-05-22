@@ -1,15 +1,7 @@
 [project]
-name = "ragas"
+name = "zipfai"
 dependencies = [
-    "Levenshtein",
-    "rouge-score",
-    "numpy",
     "transformers",
-    "sentence-transformers",
-    "nltk",
-    "datasets",
-    "spacy<4.0.0,>=3.0.0",
-    "protobuf<=3.20.0",
 ]
 dynamic = ["version", "readme"]
 
@@ -20,4 +12,4 @@ readme = {file = ["README.md"], content-type = "text/plain"}
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
-write_to = "ragas/_version.py"
+write_to = "zipfai/_version.py"
