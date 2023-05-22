@@ -13,3 +13,16 @@ requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 write_to = "zipfai/_version.py"
+
+
+[metadata]
+name = "zipfai"
+version = "0.0.1"
+
+author = "spacemanidol"
+author_email = "dfcf93@hotmail.com"
+description = "A library which serves as an interaction paradigm for the ZIPF.AI retrieval stack"
+long_description = {file = ["README.md"], content-type = "text/plain"}
+long_description_content_type = "text/markdown"
+url = "https://github.com/spacemanidol/zipfai"
+project_urls =  "https://github.com/spacemanidol/zipfai/issues"
